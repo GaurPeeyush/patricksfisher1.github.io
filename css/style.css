@@ -33,14 +33,16 @@ a {
 }
 /* ------------ Elements*/
 header img {
-  max-width: 30vw;
-  max-height: 600px;
+  /* max-width: 30vw;
+  max-height: 600px; */
+  display: block;
+  width: 85%;
   height: auto;
-  margin: 0 0 50px 50px;
+  /* margin: 0 0 50px 50px; */
+  margin: 0 auto 0;
   border: 6px solid #ff8133;
   border-radius: 50%;
-  float: right;
-  z-index: -1;
+  /* float: right; */
 }
 .white-section {
   background-color: #f8f8ff;
@@ -66,4 +68,16 @@ footer {
 
   padding-top: 100px;
 }
-/*-------------- For smaller screens */
+/*-------------- For larger screens */
+@media screen and (min-width: 760px) {
+  header img {
+    max-width: 500px;
+    max-height: 500px;
+    /* height: auto; */
+    margin: 0 0 50px 50px;
+    border: 6px solid #ff8133;
+    border-radius: 50%;
+    float: right;
+    z-index: -1;
+  }
+}
