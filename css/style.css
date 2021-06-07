@@ -1,4 +1,9 @@
 /*Styles*/
 body {
-  background-color: lightblue;
+  background-color: wheat;
+  margin:0;
+  padding:0;
+}
+img {
+  margin:0;
 }
