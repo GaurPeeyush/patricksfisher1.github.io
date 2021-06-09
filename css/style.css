@@ -41,7 +41,13 @@ a {
 /* -------------------------------------------------------- || ANIMATIONS*/
 a:hover {color: #99ebff;}
 /* ------------------------------------------------------ || OTHER STYLES*/
-#main-nav {
+main {
+  /* width: 80vw;
+  padding: 1em; */
+  /* border: 1px solid blue; */
+
+}
+/* #main-nav {
   width: 100vw;
   height: 68px;
   border: 1px solid black;
@@ -62,7 +68,11 @@ a:hover {color: #99ebff;}
   border: 1px solid black;
   margin: 0;
   width: 4em;
+} */
+header, main, footer {
+  margin: 3em 1.5em;
 }
+
 header img {
   display: block;
   width: 85%;
@@ -73,8 +83,9 @@ header img {
 }
 .white-section {
   background-color: #f8f8ff;
-  margin: 0 -10vw;
-  padding: 50px 10vw;
+  padding: -1.5em;
+  /* margin: 0;
+  padding: 50px 10vw; */
   transform: skewY(-3deg);
 }
 .white-section h1, .white-section h2 {
